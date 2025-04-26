@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Your Car - BuyBack Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">BuyBackCars</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Buy Cars</a></li>
+                <li><a href="#">Sell Your Car</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#">Login</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+    </header>
+    <section class="sell-car-form-section">
+        <h1>Post Your Car</h1>
+        <form class="sell-car-form">
+            <input type="text" placeholder="Car Make" required>
+            <input type="text" placeholder="Car Model" required>
+            <input type="number" placeholder="Year of Manufacture" required>
+            <input type="number" placeholder="Price" required>
+            <input type="number" placeholder="Mileage" required>
+            <select>
+                <option>Automatic</option>
+                <option>Manual</option>
+            </select>
+            <select>
+                <option>Petrol</option>
+                <option>Diesel</option>
+                <option>Electric</option>
+            </select>
+            <textarea placeholder="Car Description" rows="6" required></textarea>
+            <input type="file" name="car-image" required>
+            <button type="submit">Post Car</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>© 2025 BuyBackCars. All rights reserved.</p>
+    </footer>
+</body>
+</html>
